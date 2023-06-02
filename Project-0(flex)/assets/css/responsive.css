@@ -1,0 +1,128 @@
+/* Medium Layout: 1280px. 
+
+Checking Size: 1000px
+*/
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+
+    .container{
+        width: 970px;
+    }
+    .welcome-contant {
+        flex-basis: 80%;    
+    }
+    .contact-form {
+        flex-basis: 55%;  
+    }
+}
+
+
+/* Tablet Layout: 768px. 
+
+Checking Size: 800px
+*/
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+    .container {
+        width: 750px;
+    }
+    .logo a {  
+        font-size: 15px;
+    }
+    .menu ul li a { 
+        font-size: 15px;
+        padding: 10px 7px;  
+    }
+    .welcome-contant {
+        flex-basis: 70%;
+    
+    }
+    .contact-form {
+        flex-basis: 360px;
+      
+    }
+    .contact-info {
+        flex-basis: 280px;
+    }
+}
+
+/* Mobile Layout: 350px
+
+Checking Size: 400px
+*/
+@media only screen and (max-width: 767px) {
+    .container{
+        width: 350px;
+    }
+    .header {
+        padding: 15px 0px;
+        flex-direction: column;
+    }
+    .menu ul {
+        flex-direction: column;
+        margin-top: 14px;
+    }
+    .menu ul li a {
+        font-size: 10px;
+        padding: 0px 62px;
+    }
+    .logo a { 
+        font-size: 20px;
+    }
+    .welcome-menu ul {
+        margin: 20px 0px;
+    }
+    .welcome-contant {
+        flex-basis: 100%;
+        margin-bottom: 68px;
+        margin-top: 25px;
+    }.single-welcome {
+        flex-basis: 100%;
+    }  
+    .single-services {
+        flex-basis: 100%;
+        margin-bottom: 25px;
+    }.single-services a {
+     
+        margin: 14px;
+    }.about {  
+     padding: 0px;    
+    }
+    .main-about, .about-menu {
+        flex-basis: 100%;
+        margin-bottom: 25px;
+        padding: 12px;
+    }
+    .single-footer:nth-child(1) {
+        flex-basis: 100%;
+        margin-bottom: 25px;
+    }
+    .single-footer:nth-child(2) {
+        flex-basis: 100%;
+        margin-bottom: 25px;
+    }
+    .single-footer:nth-child(3) {
+        flex-basis: 100%;
+    }
+    .section-title {
+       font-size: 25px;
+    } 
+    .contact-form input, .contact-form textarea {
+        margin: 5px 17px;
+    }
+    .contact-info {
+        margin-top: 36px;
+        padding: 25px;
+    }
+    .single-contact h4 {
+        font-size: 15px;
+    }
+    .single-contact h4 span {
+        font-size: 14px;
+    }
+    .main-footer {
+        font-size: 12px;
+        
+    }
+}
